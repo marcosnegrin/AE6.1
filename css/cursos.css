@@ -1,0 +1,53 @@
+#principal{
+    width: 100%;
+}
+
+.grande{
+    display: block;
+    width: 60%;
+    position: relative;
+    padding: 30px;
+}
+
+.grande h2{
+    font-size: xx-large;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.grande h3{
+    font-size: x-large;
+    margin: 0;
+}
+
+.peque{
+    display: block;
+    width: auto;
+    padding-left: 50px;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.peque img{
+    height: 300px;
+}
+
+.grande button{
+    position: absolute;
+    padding: 5px;
+    background-color: rgb(209, 200, 193);
+    color: white;
+    font-weight: bold;
+    width: 220px;
+    height: 36px;
+    font-size: large;
+    border-radius: 15px;
+    right: 0;
+}
+
+.grande button:hover{
+    background-color: orange;
+}
+
