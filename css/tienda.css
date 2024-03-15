@@ -1,0 +1,55 @@
+#contenido{
+    text-align: center;
+}
+
+#contenido img{
+    width: 60%;
+}
+
+#contenido img:hover{
+    width: 50%;
+}
+
+.paginas{
+    text-align: right;
+    padding-top: 40px;
+ 
+}
+
+.paginas button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+
+.paginas button:hover{
+    background-color: orange;
+}
+
+.articulo{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.precio{
+    font-size: large;
+    font-weight: bold;
+}
+
+.cuadrado{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.cuadrado:hover{
+    color: orange;
+}
+
+td{
+    padding-top: 10px;
+}
